@@ -1,0 +1,8 @@
+package net.proselyte.jwtppdem.repository;
+
+import net.proselyte.jwtppdem.model.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoleRepository extends JpaRepository<Role, Long> {
+    Role findByName(String name);
+}
