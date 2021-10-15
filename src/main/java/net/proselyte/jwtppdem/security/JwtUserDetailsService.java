@@ -2,6 +2,8 @@ package net.proselyte.jwtppdem.security;
 
 import lombok.extern.slf4j.Slf4j;
 import net.proselyte.jwtppdem.model.User;
+import net.proselyte.jwtppdem.security.jwt.JwtUser;
+import net.proselyte.jwtppdem.security.jwt.JwtUserFactory;
 import net.proselyte.jwtppdem.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
